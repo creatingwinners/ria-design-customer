@@ -18,7 +18,6 @@
           name="users"
           class="focus:outline-none focus:ring-0 focus:border-transparent text-sm h-3/4 py-0 pl-2 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md
         ">
-
         </select>
         <button
           v-if="filter"

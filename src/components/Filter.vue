@@ -5,7 +5,7 @@
 
       <!-- Profile -->
       <div class="flex flex-row items-center h-14 px-3 bg-gray-50">
-        <div class="w-1/5">
+        <div class="w-1/5 line-clamp-1">
           <h3 class="text-lg leading-6 font-medium text-gray-900">
             Profile
           </h3>
@@ -25,8 +25,8 @@
 
       <!-- Link -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Public link:
+        <div class="w-1/5 line-clamp-1">
+          Public link
         </div>
         <div class="w-4/5">
           <InputSelectMulti placeholder="Select one or more links">
@@ -37,8 +37,8 @@
 
       <!-- Gender -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Gender:
+        <div class="w-1/5 line-clamp-1">
+          Gender
         </div>
         <div class="flex flex-row w-4/5 justify-start gap-x-6 items-center">
           <InputCheckbox placeholder="Minimum age" label="Both">
@@ -55,8 +55,8 @@
 
       <!-- Age -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Age:
+        <div class="w-1/5 line-clamp-1">
+          Age
         </div>
         <div class="flex flex-row w-4/5 items-center">
           <div class="w-2/5">
@@ -64,7 +64,7 @@
               <CalculatorIcon class="h-4 w-4 text-gray-400" aria-hidden="true" />
             </InputNumber>
           </div>
-          <div class="w-1/5 text-center">
+          <div class="w-1/5 line-clamp-1 text-center">
             to
           </div>
           <div class="w-2/5">
@@ -77,11 +77,11 @@
 
       <!-- Experience -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Experience:
+        <div class="w-1/5 line-clamp-1">
+          Experience
         </div>
         <div class="w-4/5">
-          <InputSelectMulti placeholder="Select one or more experiences" >
+          <InputSelectMulti placeholder="Select one or more experiences" options="experiences">
             <BriefcaseIcon class="h-4 w-4 text-gray-400" aria-hidden="true" />
           </InputSelectMulti>
         </div>
@@ -89,8 +89,8 @@
 
       <!-- Education -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Education:
+        <div class="w-1/5 line-clamp-1">
+          Education
         </div>
         <div class="w-4/5">
           <InputSelectMulti placeholder="Select one or more educations">
@@ -101,8 +101,8 @@
 
       <!-- Countries -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Country:
+        <div class="w-1/5 line-clamp-1">
+          Country
         </div>
         <div class="w-4/5">
           <InputSelectMulti placeholder="Select one or more countries">
@@ -113,8 +113,8 @@
 
       <!-- Nationalities -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Nationality:
+        <div class="w-1/5 line-clamp-1">
+          Nationality
         </div>
         <div class="w-4/5">
           <InputSelectMulti placeholder="Select one or more nationalities">
@@ -125,8 +125,8 @@
 
       <!-- Languages -->
       <div class="flex flex-row items-center h-14 px-3">
-        <div class="w-1/5">
-          Languages:
+        <div class="w-1/5 line-clamp-1">
+          Languages
         </div>
         <div class="w-4/5">
           <InputSelectMulti placeholder="Select one or more languages">
@@ -140,10 +140,15 @@
 
       <!-- Customer Fields -->
       <div class="flex flex-row items-center h-14 px-3 bg-gray-50">
-        <div class="w-full">
+        <div class="w-1/2">
           <h3 class="text-lg leading-6 font-medium text-gray-900">
             Customer Fields
           </h3>
+        </div>
+        <div class="w-1/2 text-right">
+          <button type="button" class="inline-flex items-center px-2.5 py-1.5 border border-transparent text-xs font-medium rounded shadow-sm text-white bg-yellow-600 hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500">
+            Reset All Filters
+          </button>
         </div>
       </div>
 
@@ -151,8 +156,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Chat:
+          <div class="w-1/5 line-clamp-1">
+            Chat
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select chat">
@@ -163,8 +168,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Team:
+          <div class="w-1/5 line-clamp-1">
+            Team
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select team">
@@ -175,8 +180,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Data:
+          <div class="w-1/5 line-clamp-1">
+            Data
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select data">
@@ -187,8 +192,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Income:
+          <div class="w-1/5 line-clamp-1">
+            Income
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select income">
@@ -199,8 +204,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Something:
+          <div class="w-1/5 line-clamp-1">
+            Something Something Something Something Something
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select something">
@@ -211,8 +216,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Else:
+          <div class="w-1/5 line-clamp-1">
+            Else
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select else">
@@ -223,8 +228,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Again:
+          <div class="w-1/5 line-clamp-1">
+            Again
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select again">
@@ -235,8 +240,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Really:
+          <div class="w-1/5 line-clamp-1">
+            Really
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select really">
@@ -247,8 +252,8 @@
 
         <!-- Example -->
         <div class="flex flex-row items-center h-14 px-3">
-          <div class="w-1/5">
-            Please:
+          <div class="w-1/5 line-clamp-1">
+            Please
           </div>
           <div class="w-4/5">
             <InputSelectMulti placeholder="Select please">
@@ -272,12 +277,12 @@ import { AcademicCapIcon, BriefcaseIcon, CalculatorIcon, CalendarIcon, ChatAltIc
 
 const experiences = [
   { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' },
-  { selected: true, value: 'A', description: 'Option A' }
+  { selected: false, value: 'A', description: 'Option B' },
+  { selected: false, value: 'A', description: 'Option C' },
+  { selected: true, value: 'A', description: 'Option D' },
+  { selected: false, value: 'A', description: 'Option E' },
+  { selected: false, value: 'A', description: 'Option F' },
+  { selected: false, value: 'A', description: 'Option G' }
 ];
 
 export default {
@@ -299,7 +304,12 @@ export default {
     LocationMarkerIcon,
     SearchIcon,
     UserGroupIcon
-  }
+  },
+  setup() {
+    return {
+      experiences
+    }
+  },
 }
 </script>
 
